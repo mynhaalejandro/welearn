@@ -9,7 +9,7 @@ describe('Header', () => {
     StaticQuery.mockImplementation(({ render }) =>
       render({
         ...data,
-        portfolioJson: { bugs: '' }
+        welearnJson: { bugs: '' }
       })
     )
     useStaticQuery.mockImplementation(() => ({ ...data }))

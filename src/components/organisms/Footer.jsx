@@ -9,7 +9,7 @@ import styles from './Footer.module.scss'
 const query = graphql`
   query {
     # the package.json file
-    portfolioJson {
+    welearnJson {
       bugs
     }
 
@@ -60,7 +60,7 @@ export default class Footer extends PureComponent {
       <StaticQuery
         query={query}
         render={data => {
-          const pkg = data.portfolioJson
+          const pkg = data.welearnJson
           const meta = data.metaYaml
 
           return <FooterMarkup year={this.state.year} pkg={pkg} meta={meta} />

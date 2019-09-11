@@ -72,7 +72,7 @@ module.exports = {
         short_name: 'mk',
         start_url: '/',
         background_color: '#e7eef4',
-        theme_color: '#88bec8',
+        theme_color: '#ca3e47',
         icon: 'src/images/favicon.png',
         display: 'minimal-ui',
         cache_busting_mode: 'name'
