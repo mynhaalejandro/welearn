@@ -3,27 +3,21 @@
 
 
 /* TEAM */
-	design & development	: matthias kretschmann
-	Site					        : https://matthiaskretschmann.com
-	Twitter					      : @moodlearning
-  GitHub					      : @kremalicious
-	Location				      : Berlin, Germany
+	redesign and development	: moodLearning
+	Site					    : https://moodlearning.com
+	Twitter					    : @moodlearning
+  	Facebook					: @moodlearningph
+	Instagram					: @moodlearning
+	Linkedin					: @moodlearning
+	Location				    : Quezon City, Philippines
+
+/* THANKS */
+	tempalate					: matthias kretschmann
+	Site					    : https://matthiaskretschmann.com
+	Twitter					    : @kremalicious
+  	GitHub					    : @kremalicious
+	Location				    : Berlin, Germany
+
 
 /* SITE */
-	Typography				    : Brandon Grotesque, FF Tisa Sans Web Pro
 	Software				      : Gatsby.js, React, VS Code, Sketch, macOS
-
-
-<!--
-		      ___           ___
-		     /__/\         /__/|
-		    |  |::\       |  |:|
-		    |  |:|:\      |  |:|
-		  __|__|:|\:\   __|  |:|
-		 /__/::::| \:\ /__/\_|:|____
-		 \  \:\~~\__\/ \  \:\/:::::/
-		  \  \:\        \  \::/~~~~
-		   \  \:\        \  \:\
-		    \  \:\        \  \:\
-		     \__\/         \__\/
--->

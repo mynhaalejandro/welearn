@@ -16,7 +16,6 @@ const query = graphql`
     metaYaml {
       title
       url
-      gpg
     }
   }
 `

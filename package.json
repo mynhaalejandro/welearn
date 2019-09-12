@@ -1,12 +1,9 @@
 {
-  "name": "@kremalicious/portfolio",
+  "name": "@moodlearning/portfolio",
   "description": "Portfolio thingy, built with Gatsby",
   "version": "0.1.0",
-  "homepage": "https://matthiaskretschmann.com",
-  "repository": "github:kremalicious/portfolio",
-  "bugs": "https://github.com/kremalicious/portfolio/issues",
-  "license": "MIT",
-  "author": "Matthias Kretschmann <m@kretschmann.io>",
+  "homepage": "https://moodlearning.com",
+  "bugs": "mailto:contact@moodlearning.com",
   "scripts": {
     "start": "gatsby develop",
     "start:docker": "gatsby develop --host 0.0.0.0",

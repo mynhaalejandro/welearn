@@ -19,8 +19,6 @@ const query = graphql`
       social {
         Twitter
       }
-      gpg
-      addressbook
     }
   }
 `
