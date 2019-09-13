@@ -3,9 +3,6 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import FullWidth from '../components/atoms/FullWidth'
 import ProjectImage from '../components/molecules/ProjectImage'
-// import ProjectTechstack from '../components/molecules/ProjectTechstack'
-// import ProjectLinks from '../components/molecules/ProjectLinks'
-// import ProjectNav from '../components/molecules/ProjectNav'
 import SEO from '../components/atoms/SEO'
 import styles from './Project.module.scss'
 
@@ -57,7 +54,7 @@ export default class Project extends PureComponent {
     const project = data.projectsYaml
     const projectImages = data.projectImages.edges
     const descriptionHtml = data.projectsYaml.fields.descriptionHtml
-    const { title, links, techstack } = project
+    const { title } = project
 
     return (
       <>
@@ -72,10 +69,8 @@ export default class Project extends PureComponent {
             dangerouslySetInnerHTML={{ __html: descriptionHtml }}
           />
           <ProjectImages projectImages={projectImages} title={title} />
-          <ProjectMeta links={links} techstack={techstack} />
         </article>
 
-        <ProjectNav currentSlug={project.slug} />
       </>
     )
   }
