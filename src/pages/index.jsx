@@ -6,16 +6,16 @@ import ProjectImage from '../components/molecules/ProjectImage'
 import { ReactComponent as Images } from '../images/images.svg'
 import styles from './index.module.scss'
 
-function getImageCount(images, slug) {
-  let array = []
-  let slugWithoutSlashes = slug.replace(/\//g, '')
+// function getImageCount(images, slug) {
+//   let array = []
+//   let slugWithoutSlashes = slug.replace(/\//g, '')
 
-  images.map(
-    ({ node }) => node.name.includes(slugWithoutSlashes) && array.push(node)
-  )
+//   images.map(
+//     ({ node }) => node.name.includes(slugWithoutSlashes) && array.push(node)
+//   )
 
-  return array.length
-}
+//   return array.length
+// }
 
 export default class Home extends PureComponent {
   static propTypes = {
@@ -34,26 +34,27 @@ export default class Home extends PureComponent {
 
         <div className={styles.projects}>
           {projects.map(({ node }) => {
-            const { slug, title, img } = node
-            const imageCount = getImageCount(images, slug)
+            const { title, link,  img } = node
+            // const imageCount = getImageCount(images, slug)
 
             return (
               // Portfolio
-              <article className={styles.project} key={slug}>
-                <Link to={slug}>
+              <article className={styles.project}>
+                  <a href={ link } target="_blank">
                   <h1 className={styles.title}>{title}</h1>
                   <ProjectImage fluid={img.childImageSharp.fluid} alt={title} />
 
-                  {imageCount > 1 && (
+                  {/* {imageCount > 1 && (
                     <small
                       className={styles.imageCount}
                       title={`${imageCount} project images`}
                     >
                       <Images /> {imageCount}
                     </small>
-                  )}
-                </Link>
+                  )} */}
+                  </a>
               </article>
+
             )
           })}
         </div>
@@ -69,7 +70,7 @@ export const IndexQuery = graphql`
       edges {
         node {
           title
-          slug
+          link
           img {
             childImageSharp {
               fluid(maxWidth: 980, quality: 85) {

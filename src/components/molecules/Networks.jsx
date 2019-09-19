@@ -23,7 +23,7 @@ const Networks = ({ small, hide }) => {
   const wrapClasses = classNames([styles.networks], {
     [styles.small]: small
   })
-
+  //Social Icons
   return (
     !hide && (
       <Animation className={wrapClasses}>
@@ -33,6 +33,7 @@ const Networks = ({ small, hide }) => {
             href={social[key]}
             key={i}
             data-testid={`network-${key.toLowerCase()}`}
+            target="_blank"
           >
             <LinkIcon title={key} className={icons.icon} />
             <span className={styles.title}>{key}</span>

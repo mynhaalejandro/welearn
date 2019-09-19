@@ -9,8 +9,10 @@ $easing: cubic-bezier(.75, 0, .08, 1);
 // $brand-main-light: #88bec8;
 // $brand-light: #e7eef4;
 
-$brand-main: #af0404;
-$brand-cyan: #ff6768;
+// $brand-main: #af0404;
+$brand-main: #CF1020;
+// $brand-cyan: #ff6768;
+$brand-cyan: #CF1020;
 $brand-main-light: #ca3e47;
 $brand-light: #e7eef4;
 
@@ -22,7 +24,9 @@ $brand-grey-dimmed: lighten($brand-grey, 50%);
 /////////////////////////////////////
 
 $body-background-color: $brand-light;
-$body-background-color--dark: darken($brand-grey, 22%);
+// $body-background-color--dark: darken($brand-grey, 22%);
+$body-background-color--dark: #121212;
+
 
 // Text Colors
 /////////////////////////////////////

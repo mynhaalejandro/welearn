@@ -40,6 +40,7 @@ export default class Header extends PureComponent {
               <ThemeSwitch />
               <LogoUnit minimal={minimal} />
               <Networks hide={minimal} />
+
               <Availability hide={minimal && !meta.availability.status} />
             </header>
           )

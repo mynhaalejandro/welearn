@@ -3,7 +3,6 @@
     "title": "weLearn",
     "description": "Portfolio of lms &amp; moodLearning.",
     "url": "https://www.moodlearning.com",
-    "email": "contact@moodlearning.com",
     "avatar": {
       "childImageSharp": {
         "fluid": {
@@ -22,7 +21,6 @@
       }
     },
     "social": {
-      "Email": "mailto:contact@moodlearning.com",
       "Facebook": "https://www.facebook.com/moodlearningph",
       "Twitter": "https://twitter.com/moodlearning",
       "Instagram": "https://www.instagram.com/moodlearning",

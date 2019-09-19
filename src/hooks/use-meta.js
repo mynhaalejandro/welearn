@@ -6,9 +6,7 @@ const query = graphql`
       title
       description
       url
-      email
       social {
-        Email
         Facebook
         Twitter
         Instagram

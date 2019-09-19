@@ -1,12 +1,10 @@
 - title: weLearn
   description: Portfolio of lms &amp; moodLearning.
   url: https://www.moodlearning.com
-  email: contact@moodlearning.com
   avatar: ../src/images/avatar.png
   img: ../src/images/twitter-card.png
 
   social:
-    Email: mailto:contact@moodlearning.com
     Facebook: https://www.facebook.com/moodlearningph
     Twitter: https://twitter.com/moodlearning
     Instagram: https://www.instagram.com/moodlearning
@@ -15,7 +13,7 @@
 
   availability:
     status: true
-    available: '👔 Available for new projects. <a href="mailto:contact@moodlearning.com">Let’s talk</a>!'
+    available: '👔 Available for new projects. <a href="https://www.moodlearning.com/contact" target="_blank">Let’s talk</a>!'
     unavailable: Not available for new projects.
 
   # Footer actions

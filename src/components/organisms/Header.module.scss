@@ -1,13 +1,13 @@
 @import 'variables';
 
 .header {
-    position: relative;
+//     position: relative;
     padding: $spacer;
-    padding-top: 30vh;
-    min-height: calc(100vh - #{$spacer});
+    // padding-top: 30vh;
+    // min-height: calc(100vh - #{$spacer});
     max-height: 1000px;
     text-align: center;
-    display: flex;
+//     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }

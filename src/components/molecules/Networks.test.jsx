@@ -15,7 +15,7 @@ describe('Networks', () => {
 
     expect(container.firstChild).toBeInTheDocument()
     expect(container.firstChild.nodeName).toBe('ASIDE')
-    expect(getByTestId('network-email').href).toBe(social.Email)
+    // expect(getByTestId('network-email').href).toBe(social.Email)
     // expect(getByTestId('network-facebook').href).toBe(social.Facebook + '/')
     expect(getByTestId('network-facebook').href).toBe(social.Facebook)
     expect(getByTestId('network-twitter').href).toBe(social.Twitter)

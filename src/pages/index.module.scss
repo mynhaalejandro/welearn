@@ -25,6 +25,8 @@
     background: rgba($brand-cyan, .9);
     transform: translate3d(0, -1rem, 0);
     transition: transform .2s ease-out;
+    border-bottom-right-radius: 50%;
+    // border-top-right-radius: 10%;
 }
 
 .project {

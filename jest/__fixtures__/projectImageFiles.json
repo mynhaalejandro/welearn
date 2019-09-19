@@ -193,7 +193,7 @@
       },
       {
         "node": {
-          "name": "abbott-anileap"
+          "name": "oceanprotocol-01"
         }
       },
       {
@@ -288,11 +288,6 @@
       },
       {
         "node": {
-          "name": "email"
-        }
-      },
-      {
-        "node": {
           "name": "favicon"
         }
       },
@@ -358,6 +353,27 @@
       },
       {
         "node": "youtube"
+      },
+      {
+        "node": "abbott-anileap"
+      },
+      {
+        "node": "bdo-life"
+      },
+      {
+        "node": "blearn"
+      },
+      {
+        "node": "cman"
+      },
+      {
+        "node": "dbm"
+      },
+      {
+        "node": "generika"
+      },
+      {
+        "node": "up-ou"
       }
     ]
   }

@@ -16,13 +16,7 @@ describe('Home', () => {
     ...projectImageFiles
   }
 
-  const pageContext = {
-    repos: [
-      {
-        name: 'Hello'
-      }
-    ]
-  }
+
 
   it('renders correctly from data file values', () => {
     const { container } = render(<Home data={data} pageContext={pageContext} />)

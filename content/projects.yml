@@ -1,41 +1,172 @@
-- title: Abbott Anileap
-  slug: /abbott-anileap/
-  img: images/abbott-anileap.jpg
-  description: >
-            [Click here to visit the website!](https://anileap.etraining.ph)
-
-- title: BDO Life
-  slug: /bdo-life/
-  img: 'images/bdo-life.jpg'
-  description: >
-      [Click here to visit the website!](https://bdolife.welearn.ph)
-
-- title: Blearn
-  slug: /blearn/
-  img: images/blearn.jpg
-  description: >
-    [Click here to visit the website!](https://blearn.co)
-
-- title: CMAN
-  slug: /cman/
-  img: images/cman.jpg
-  description: >
-      [Click here to visit the website!](https://cman.etraining.ph)
+- title: BDO
+  link: https://bdolife.welearn.ph
+  img: images/bdo-life.png
 
 - title: DBM
-  slug: /dbm/
-  img: images/dbm.jpg
-  description: >
-      [Click here to visit the website!](http://elearning.dbm.gov.ph)
-
-- title: Generika
-  slug: /generika/
-  img: images/generika.jpg
-  description: >
-      [Click here to visit the website!](https://generika.etraining.ph)
+  link: http://elearning.dbm.gov.ph
+  img: images/dbm.png
 
 - title: UP Open University
-  slug: /up-ou/
-  img: images/up-ou.jpg
-  description: >
-      [Click here to visit the website!](https://myportal.upou.edu.ph/login/index.php)
+  link: https://myportal.upou.edu.ph/login/index.php
+  img: images/up-ou.png
+
+- title: Abbott
+  link: https://anileap.etraining.ph
+  img: images/abbott-anileap.png
+
+- title: Generika
+  link: https://generika.etraining.ph
+  img: images/generika.png
+
+- title: CMAN
+  link: https://cman.etraining.ph
+  img: images/cman.png
+
+- title: Blearn
+  link: https://blearn.co
+  img: images/blearn.png
+
+# - title: ezeep
+#   slug: /ezeep/
+#   img: images/ezeep-01.png
+#   description: >
+#     [Wojciech Hupert](https://twitter.com/wojciechhupert).
+
+
+# - title: Mr. Reader
+#   slug: /mrreader/
+#   img: images/mrreader-01.png
+#   description: >
+#     While working with indy iOS developer Curious Times in 2012, I designed the app icon, a custom theme, and various promotion materials for Mr. Reader, a powerful and highly loved RSS feed reader for iPad.
+#   techstack:
+#     - Photoshop
+
+# - title: iPixelPad
+#   slug: /ipixelpad/
+#   img: images/ipixelpad-01.png
+#   description: >
+#     So, what to do when everyone seem to release iPad icons but fail to include some crisp small size icons? Pushing the pixels for yourself of course. So here’s my take on the smaller sizes of an Apple iPad icon, called iPixelPad.
+
+#     Released as a goodie on [kremalicious.com](https://kremalicious.com/ipixelpad/).
+
+#   techstack:
+#     - Photoshop
+
+#   links:
+#     - title: Download
+#       url: https://kremalicious.com/ipixelpad/
+
+# - title: Out Of Whale Oil
+#   slug: /outofwhaleoil/
+#   img: images/outofwhaleoil-01.jpg
+#   description: >
+#     Tribute wallpaper pack inspired by the Futurama movie _Into The Wild Green Yonder_. Released as a goodie on [kremalicious.com](https://kremalicious.com/out-of-whale-oil/).
+#   links:
+#     - title: Download
+#       url: https://kremalicious.com/out-of-whale-oil/
+#   techstack:
+#     - Photoshop
+
+# - title: 'Martin-Luther-Universität Halle-Wittenberg'
+#   slug: /unihalle/
+#   img: images/unihalle-01.png
+#   description: >
+#     From 2009–2012 I worked at the IT services department of [Martin-Luther-Universität Halle-Wittenberg](http://www.uni-halle.de) where I conceptualized, designed & implemented numerous in-house and public facing interfaces for thousands of students and staff.
+
+#     Additionally, I conceptualized, designed, created, and maintained the blog network & community for all students & staff.
+
+#   techstack:
+#     - Photoshop
+#     - Illustrator
+#     - HTML
+#     - SCSS
+#     - JavaScript
+#     - PHP
+#     - Ruby on Rails
+#     - WordPress
+#     - Ilias
+#     - Stud.IP
+
+#   links:
+#     - title: Link
+#       url: http://blogs.urz-uni-halle.de
+#     - title: Dribbble
+#       url: https://dribbble.com/kremalicious/projects/690029-MLU
+
+# - title: Coffee Cup
+#   slug: /coffeecup/
+#   img: images/coffeecup-01.png
+#   description: >
+#     Desktop icons showing the fuel of most designers. Released as a goodie
+#     on [kremalicious.com](https://kremalicious.com/coffee-cup-icon/).
+
+#   techstack:
+#     - Photoshop
+
+#   links:
+#     - title: Download
+#       url: https://kremalicious.com/coffee-cup-icon/
+
+# - title: Project Purple
+#   slug: /projectpurple/
+#   img: images/projectpurple-01.png
+#   description: >
+#     It had been revealed the original iPhone was developed in a locked down building under the name Project Purple and because of the secrecy involved, the team decorated the building with Fight Club references. Perfect story to create a wallpaper out of it.
+
+#     Released as a goodie on [kremalicious.com](https://kremalicious.com/projectpurple/).
+
+#   techstack:
+#     - Photoshop
+
+#   links:
+#     - title: Download
+#       url: https://kremalicious.com/projectpurple/
+
+# - title: Allinnia Creative Group
+#   slug: /allinnia/
+#   img: images/allinnia-01.png
+#   description: >
+#     In 2009 I created the branding, website, and various key visuals for professional music production studio Allinnia Creative Group, reflecting their own musical compositions.
+
+#     The website was built from scratch as a simple PHP application with a store and music listening functionality.
+#   techstack:
+#     - Photoshop
+#     - HTML
+#     - CSS
+#     - JavaScript
+#     - PHP
+
+# - title: Aperture Loupe
+#   slug: /apertureloupe/
+#   img: images/apertureloupe-01.png
+#   description: >
+#     When Apple released their professional photography app _Aperture_ in 2008, the loupe tool in there was something really novel and just fun to play with. Inspired by that, I created this macOS desktop icon.
+
+#   techstack:
+#     - Photoshop
+
+# - title: Adiumeetie
+#   slug: /adiumeetie/
+#   img: images/adiumeetie-01.png
+#   description: >
+#     A macOS replacement desktop icon created in 2009 for the popular Mac IM client Adium following the style of atebit’s excellent Tweetie for Mac icon. Released as a goodie on [kremalicious.com](https://kremalicious.com/adiumeetie/).
+
+#   techstack:
+#     - Photoshop
+
+#   links:
+#     - title: Download
+#       url: https://kremalicious.com/adiumeetie/
+
+# - title: "Niépce's Camera Obscura"
+#   slug: /niepces-camera-obscura/
+#   img: images/niepces-camera-obscura-01.jpg
+#   description: >
+#     In 2008 I used the camera obscura as it was used by Nicéphore Niépce in 1826 to create an Aperture and iPhoto replacement icon.
+
+#     Nicéphore Niépce made it first possible to preserve an image taken with a camera obscura in 1826 or 1827 by using a special mixture of bitumen on a glass or metal plate, naming it Heliography. This first preserved image 'View from the Window at Le Gras' is the one you can see in the iPhoto icon.
+#   links:
+#     - title: Info
+#       url: https://kremalicious.com/niepces-camera-obscura-and-the-history-of-the-first-photograph/
+#   techstack:
+#     - Photoshop
